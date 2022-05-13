@@ -1,5 +1,10 @@
-basic.showString("E1")
+radio.onReceivedNumber(function (receivedNumber) {
+    led.plotBarGraph(
+    receivedNumber,
+    1024
+    )
+})
 radio.setGroup(1)
 basic.forever(function () {
-    radio.sendNumber(input.rotation(Rotation.Pitch))
+    radio.sendNumber(input.acceleration(Dimension.X))
 })

@@ -1,5 +1,5 @@
 {
-    "name": "Emetteur-Radio (signal inclinaison)",
+    "name": "T31-Emet-Recpt-Radio (signal inclin X)",
     "description": "",
     "dependencies": {
         "core": "*",
